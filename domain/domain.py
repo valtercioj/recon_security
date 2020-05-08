@@ -17,6 +17,7 @@ def recon():
 
 		except:
 			continue
+		arq.close()
 
 try:
 	site = sys.argv[1]
