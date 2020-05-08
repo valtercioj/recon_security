@@ -21,7 +21,8 @@ def bruteForce():
 				print('HOST ENCONTRADO: '+url,'===> IP: '+ip())
 				
 		except:
-			continue		
+			continue
+		arq.close()		
 print(r'''
 ____________ _   _ _____ _____  ______ ___________  _____  _____  ______ _   _  _____ 
 | ___ \ ___ \ | | |_   _|  ___| |  ___|  _  | ___ \/  __ \|  ___| |  _  \ \ | |/  ___|
@@ -49,5 +50,4 @@ except:
 
 
 	
-
 
